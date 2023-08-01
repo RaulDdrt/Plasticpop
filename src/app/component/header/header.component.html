@@ -1,4 +1,4 @@
-<header>
+<header class="sticky-top">
     <img src="" alt="">
 <aside>
     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -8,8 +8,8 @@
     </svg>
 </aside>
     <div>
-    <button class="button1">Registrarse</button>
-    <button class="button1">Login</button>
+    <a routerLink="register" *ngIf="!userIsRegistered"><button class="button1">Registrarse</button></a>
+    <a routerLink="login"><button class="button1">Login</button></a>
     </div>
 </header>
 

@@ -1,7 +1,7 @@
 header{
     
     width: 400px;
-    height: 174px;
+    height: 120px;
     flex-shrink: 0;
     border: 1px solid #000;
     background: #694795;
@@ -35,11 +35,12 @@ div{
     border-radius: 20px;
     background: #6B596F;
     color: #FFF;
-    font-family: Istok Web;
-    font-size: 12px;
+    font-size: 10px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 10px;
+    
 }
 
 

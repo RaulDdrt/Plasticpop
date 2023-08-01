@@ -7,6 +7,9 @@ import { HeaderComponent } from './component/header/header.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { RegistrerComponent } from './pages/registrer/registrer.component';
+import { SlideComponent } from './component/slide/slide.component';
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +17,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     HeaderComponent,
     FooterComponent,
+    RegistrerComponent,
+    SlideComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
