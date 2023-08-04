@@ -1,0 +1,79 @@
+.profile{
+    width: 400px;
+    height: 275px;
+    flex-shrink: 0;
+    stroke-width: 1px;
+    stroke: #000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+}
+
+img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin: 5px;
+    object-fit: cover;
+
+}
+
+.pUser{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background-color: #694795;
+    color: white;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    height: 30px;
+    border-radius: 5px;
+    margin: 5px
+}
+
+.pUsername{
+    margin: 5px
+}
+
+.pInterest{
+    font-size: small;
+    color: #958a8a;
+}
+
+.socialMedia{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+    height: 30px;
+}
+
+.button1{
+
+    width: 72px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #6B596F;
+    color: #FFF;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 10px;
+    
+}
+
+.cards{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    width: 400px;
+}

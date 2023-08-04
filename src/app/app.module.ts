@@ -10,6 +10,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegistrerComponent } from './pages/registrer/registrer.component';
 import { SlideComponent } from './component/slide/slide.component';
 import { LoginComponent } from './pages/login/login.component';
+import { ProfileComponent } from './pages/profile/profile.component';
+import { User } from './shared/user';
+import { CardComponent } from './component/card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,12 +23,14 @@ import { LoginComponent } from './pages/login/login.component';
     RegistrerComponent,
     SlideComponent,
     LoginComponent,
+    ProfileComponent,
+    CardComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CarouselModule.forRoot(),
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
