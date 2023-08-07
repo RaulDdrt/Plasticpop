@@ -1,5 +1,4 @@
 footer{
-    width: 400px;
     height: 58px;
     flex-shrink: 0;
     background: #694795;
@@ -7,5 +6,10 @@ footer{
     align-items: center;
     justify-content: space-around;
     color: white;
+    flex-shrink: 0;
+    flex: 1;
+    bottom: 0;
+    position: sticky;
+    
     
 }

@@ -1,9 +1,7 @@
 body{
-  width: 400px;
 }
   
 .div1 {
-    width: 400px;
     height: 200px;
     flex-shrink: 0;
     stroke-width: 1px;
@@ -14,12 +12,10 @@ body{
 
 
 img{
-    width: 400px;
     height: 200px;
 }
   
 aside {
-    width: 395px;
     height: 600px;
     flex-shrink: 0;
     color: #0c0101;
