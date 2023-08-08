@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +7,24 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
+  constructor (private elementRef: ElementRef){}
+
   userIsRegistered: boolean = false;
+  isMenuOpen: boolean = false;
+
+  toggleMenu() {
+    this.isMenuOpen = !this.isMenuOpen;
+  }
+
+  closeMenu(){
+    this.isMenuOpen = false
+  }
+
+  @HostListener('document:click', ['$event'])
+  clickOutside(event: Event) {
+    if (!this.elementRef.nativeElement.contains(event.target)) {
+      this.closeMenu();
+    }
+  }
 
 }

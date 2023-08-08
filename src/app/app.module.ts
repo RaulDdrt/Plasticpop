@@ -13,7 +13,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ProfileComponent } from './pages/profile/profile.component';
 import { User } from './shared/user';
 import { CardComponent } from './component/card/card.component';
-import { ProductComponent } from './pages/product/product.component';
+import { ProductComponent } from './component/product/product.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +27,7 @@ import { ProductComponent } from './pages/product/product.component';
     ProfileComponent,
     CardComponent,
     ProductComponent,
+
   ],
   imports: [
     BrowserModule,
